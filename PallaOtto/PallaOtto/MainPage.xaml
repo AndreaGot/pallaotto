@@ -53,14 +53,15 @@
             <TextBlock Text="PallaOtto" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="414*"/>
                 <RowDefinition Height="193*"/>
             </Grid.RowDefinitions>
-            <TextBlock HorizontalAlignment="Left" Height="336" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" FontSize="22" Text="PallaOtto è una applicazione in grado di dare utili consigli a domande che le vengono poste. Nelle prossime pagine potrai inserire delle domande da porre. In seguito, agitando il dispositivo, arà possibile leggere ciò che PallaOtto ha in serbo per te.   Sarà una buona idea uscire questa sera? Lui accetterà il tuo invito? Scoprilo!  Buon Divertimento!"/>
-            <Button x:Name="btnInizia" Content="Inizia a giocare!" HorizontalAlignment="Left" Height="85" Margin="-12,386,-14,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="482" Click="Button_Click"/>
-            <UI:AdControl ApplicationId="test_client" AdUnitId="Image480_80" HorizontalAlignment="Left" Height="80" Margin="-12,81,-12,0" Grid.Row="1" VerticalAlignment="Top" Width="480"/>
+            <Button x:Name="btnInizia" Content="Informazioni " HorizontalAlignment="Left" Height="148" Margin="-14,311,-12,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="482" Click="Button_Click" FontSize="35" FontFamily="Segoe WP SemiLight" BorderThickness="2"/>
+            <UI:AdControl ApplicationId="ca8d7b13-851c-4b30-b92f-d6da2dd6de27" AdUnitId="10143753" HorizontalAlignment="Left" Height="80" Margin="-12,81,-12,0" Grid.Row="1" VerticalAlignment="Top" Width="480"/>
+            <Button x:Name="btnGioca" Content="GIOCA" HorizontalAlignment="Left" Height="148" Margin="-14,10,-12,0" VerticalAlignment="Top" Width="482" Click="Gioca" FontSize="45" FontFamily="Segoe WP SemiLight" BorderThickness="2" Background="#FF007ACC"/>
+            <Button x:Name="btnInfo" Content="Istruzioni" HorizontalAlignment="Left" Height="148" Margin="-14,163,-12,0" VerticalAlignment="Top" Width="482" Click="Info" FontSize="35" FontFamily="Segoe WP SemiLight" BorderThickness="2"/>
         </Grid>
 
     </Grid>

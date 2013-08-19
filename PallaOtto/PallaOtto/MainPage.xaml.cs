@@ -24,8 +24,18 @@ namespace PallaOtto
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Domanda.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Informazioni.xaml", UriKind.Relative));
 
+        }
+
+        private void Gioca(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Domanda.xaml", UriKind.Relative));
+        }
+
+        private void Info(object sender, RoutedEventArgs e)
+        {
+           NavigationService.Navigate(new Uri("/Istruzioni.xaml", UriKind.Relative));
         }
 
 

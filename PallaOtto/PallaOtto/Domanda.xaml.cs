@@ -19,6 +19,7 @@ namespace PallaOtto
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            PhoneApplicationService.Current.State["dom"] = txtDomanda.Text.ToString();
             NavigationService.Navigate(new Uri("/Risposta.xaml", UriKind.Relative));
 
         }

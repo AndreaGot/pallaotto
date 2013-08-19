@@ -28,12 +28,12 @@
 
         <!--ContentPanel - inserire ulteriore contenuto qui-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0">
-            <TextBlock x:Name="txtDom" HorizontalAlignment="Left" TextAlignment="Center" Height="80" Margin="0,10,-12,0" TextWrapping="Wrap" Text="Spazio per il testo introduttivo" VerticalAlignment="Top" Width="468" FontSize="35" Foreground="Red"/>
+            <TextBlock x:Name="txtDom" HorizontalAlignment="Left" TextAlignment="Center" Height="93" Margin="0,10,-12,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="468" FontSize="25" Foreground="Red" Text="Spazio per la domanda inserita"/>
         </Grid>
-        <TextBlock x:Name="txtIntro" HorizontalAlignment="Left" TextAlignment="Center" Height="80" Margin="12,156,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Spazio per il testo introduttivo" VerticalAlignment="Top" Width="468" FontSize="35"/>
-        <TextBlock x:Name="txtRisp" HorizontalAlignment="Center" TextAlignment="Center" Height="71" Margin="12,272,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Spazio per la risposta" Width="468" FontWeight="Bold" VerticalAlignment="Top" FontSize="30"/>
-        <Button Content="Condividi su Facebook" HorizontalAlignment="Left" Height="101" Margin="10,388,0,0" Grid.Row="1" VerticalAlignment="Top" Width="470" Click="Button_Click"/>
-        <Button Content="Gioca Ancora" HorizontalAlignment="Left" Height="101" Margin="10,496,0,0" Grid.Row="1" VerticalAlignment="Top" Width="470" Click="Button_Click2"/>
+        <TextBlock x:Name="txtIntro" HorizontalAlignment="Left" TextAlignment="Center" Height="101" Margin="12,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="468" FontSize="25" RenderTransformOrigin="0.507,3.103" Text="Spazio per il testo introduttivo" Grid.Row="1"/>
+        <TextBlock x:Name="txtRisp" HorizontalAlignment="Center" TextAlignment="Center" Height="87" Margin="12,256,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Spazio per la risposta" Width="468" VerticalAlignment="Top" FontSize="35" FontFamily="Segoe WP SemiLight"/>
+        <Button Content="Condividi" HorizontalAlignment="Left" Height="101" Margin="10,388,0,0" Grid.Row="1" VerticalAlignment="Top" Width="470" Click="Button_Click" Background="#FF007ACC" FontSize="35" FontFamily="Segoe WP SemiLight"/>
+        <Button Content="Gioca Ancora" HorizontalAlignment="Left" Height="101" Margin="10,496,0,0" Grid.Row="1" VerticalAlignment="Top" Width="470" Click="Button_Click2" FontSize="35" FontFamily="Segoe WP SemiLight"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

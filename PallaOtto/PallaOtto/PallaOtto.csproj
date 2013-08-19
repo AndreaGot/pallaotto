@@ -100,6 +100,12 @@
     <Compile Include="Domanda.xaml.cs">
       <DependentUpon>Domanda.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Istruzioni.xaml.cs">
+      <DependentUpon>Istruzioni.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Informazioni.xaml.cs">
+      <DependentUpon>Informazioni.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Risposta.xaml.cs">
       <DependentUpon>Risposta.xaml</DependentUpon>
     </Compile>
@@ -123,6 +129,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Istruzioni.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Informazioni.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Risposta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -135,6 +149,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Busta.png" />
+    <Content Include="Facebook.png" />
+    <Content Include="MiaImg.jpg" />
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -154,6 +171,7 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Twitter.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
