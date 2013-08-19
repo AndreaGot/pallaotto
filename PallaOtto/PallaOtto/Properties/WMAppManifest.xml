@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="it-IT" />
-  <App xmlns="" ProductID="{0fef4664-bd4d-418d-8f73-08f2aa288857}" Title="PallaOtto" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PallaOtto author" Description="Sample description" Publisher="PallaOtto" PublisherID="{cbf60f68-ce01-4181-ad62-95633ce76909}">
+  <App xmlns="" ProductID="{0fef4664-bd4d-418d-8f73-08f2aa288857}" Title="PallaOtto" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PallaOtto author" Description="Hai una domanda che necessita di risposta? PallaOtto fa al caso tuo!" Publisher="PallaOtto" PublisherID="{cbf60f68-ce01-4181-ad62-95633ce76909}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
