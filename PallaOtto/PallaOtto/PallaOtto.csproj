@@ -143,12 +143,16 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\AppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="8Ball.png" />
+    <Content Include="Assets\8Ball.png" />
     <Content Include="Busta.png" />
     <Content Include="Facebook.png" />
     <Content Include="MiaImg.jpg" />

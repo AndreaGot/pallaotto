@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="it-IT" />
-  <App xmlns="" ProductID="{0fef4664-bd4d-418d-8f73-08f2aa288857}" Title="PallaOtto" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PallaOtto author" Description="Hai una domanda che necessita di risposta? PallaOtto fa al caso tuo!" Publisher="PallaOtto" PublisherID="{cbf60f68-ce01-4181-ad62-95633ce76909}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+  <App xmlns="" ProductID="{0fef4664-bd4d-418d-8f73-08f2aa288857}" Title="PallaOtto" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Andrea Gottardi" Description="Hai una domanda che necessita di risposta? PallaOtto fa al caso tuo!" Publisher="PallaOtto" PublisherID="{cbf60f68-ce01-4181-ad62-95633ce76909}">
+    <IconPath IsRelative="true" IsResource="false">Assets\8Ball.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -19,9 +19,9 @@
     <Tokens>
       <PrimaryToken TokenID="PallaOttoToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\8Ball.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\8Ball.png</BackgroundImageURI>
           <Title>PallaOtto</Title>
           <BackContent>
           </BackContent>
@@ -38,8 +38,6 @@
     </Tokens>
     <ScreenResolutions>
       <ScreenResolution Name="ID_RESOLUTION_WVGA" />
-      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
-      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
     </ScreenResolutions>
   </App>
 </Deployment>

@@ -46,7 +46,10 @@
             <TextBlock HorizontalAlignment="Left" Height="64" Margin="103,156,0,0" TextWrapping="Wrap" Text="andrea.gottardi" VerticalAlignment="Top" Width="325" FontSize="35"/>
             <TextBlock HorizontalAlignment="Left" Height="64" Margin="103,241,0,0" TextWrapping="Wrap" Text="@AndreaGot" VerticalAlignment="Top" Width="325" FontSize="35"/>
             <Image x:Name="imgMail" HorizontalAlignment="Left" Height="64" Margin="10,325,0,0" VerticalAlignment="Top" Width="64" Source="/Busta.png"/>
-            <TextBlock HorizontalAlignment="Left" Height="64" Margin="103,341,0,0" TextWrapping="Wrap" Text="andreagot16 at gmail dot com" VerticalAlignment="Top" Width="325" FontSize="23"/>
+            <TextBlock HorizontalAlignment="Left" Height="64" Margin="103,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343" FontSize="30">
+            	<Run Text="andreagot16@gmail."/>
+            	<Run Text="com"/>
+            </TextBlock>
 
             <UI:AdControl ApplicationId="ca8d7b13-851c-4b30-b92f-d6da2dd6de27" AdUnitId="10143753" HorizontalAlignment="Left" Height="80" Margin="-15,493,0,0" VerticalAlignment="Top" Width="471"/>
 

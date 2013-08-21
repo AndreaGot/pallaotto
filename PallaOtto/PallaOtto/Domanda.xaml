@@ -28,7 +28,7 @@
         </StackPanel>
 
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock HorizontalAlignment="Left" Height="177" Margin="12,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434" FontFamily="Segoe WP">
+            <TextBlock HorizontalAlignment="Center" Height="177" Margin="12,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434" FontFamily="Segoe WP">
 				<Run Text="Inserisci "/>
 				<Run Text="la domanda a cui PallaOtto dovrà rispondere! "/>
 				<LineBreak/>
@@ -36,16 +36,16 @@
 				<LineBreak/>
 				<Run Text="Consiglio: inserisci domande che possano avere &quot;sì&quot; o &quot;no&quot; come risposta, altrimenti è difficile rispondere!"/>
             </TextBlock>
-            <TextBox x:Name="txtDomanda"   HorizontalAlignment="Left" Height="115" Margin="0,208,-14,0" TextWrapping="Wrap" Text="Inserisci la domanda" VerticalAlignment="Top" Width="470"/>
-            <Button x:Name="btnDomanda" Content="Scopri la risposta" HorizontalAlignment="Left" Height="110" Margin="-12.205,362.119,-13.795,0" VerticalAlignment="Top" Width="482" Click="Button_Click" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" BorderThickness="2" FontSize="35" FontFamily="Segoe WP SemiLight" Foreground="#FFF7F7FF" Background="#FF007ACC">
+            <TextBox x:Name="txtDomanda"   HorizontalAlignment="Center" Height="115" Margin="0,208,-14,0" TextWrapping="Wrap" Text="Inserisci la domanda" VerticalAlignment="Top" Width="470"/>
+            <Button x:Name="btnDomanda" Content="Scopri la risposta" HorizontalAlignment="Center" Height="110" Margin="-12.205,362.119,-13.795,0" VerticalAlignment="Top" Width="482" Click="Button_Click" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" BorderThickness="2" FontSize="35" FontFamily="Segoe WP SemiLight" Foreground="#FFF7F7FF" Background="#FF007ACC">
                 <Button.RenderTransform>
                     <CompositeTransform SkewX="0.983" TranslateX="-0.729"/>
                 </Button.RenderTransform>
             </Button>
 
-            <UI:AdControl ApplicationId="test_client" AdUnitId="Image480_80" HorizontalAlignment="Left" Height="80" Margin="-10,488,-14,0" VerticalAlignment="Top" Width="480"/>
-            <UI:AdControl ApplicationId="ca8d7b13-851c-4b30-b92f-d6da2dd6de27" AdUnitId="10143753" HorizontalAlignment="Left" Height="80" Margin="-10,488,-14,0" VerticalAlignment="Top" Width="480" CountryOrRegion="Italy" IsAutoCollapseEnabled="True"/>
-
+            <UI:AdControl ApplicationId="test_client" AdUnitId="Image480_80" HorizontalAlignment="Center" Height="80" Margin="-10,488,-14,0" VerticalAlignment="Top" Width="480"/>
+            <!--     <UI:AdControl ApplicationId="ca8d7b13-851c-4b30-b92f-d6da2dd6de27" AdUnitId="10143753" HorizontalAlignment="Left" Height="80" Margin="-10,488,-14,0" VerticalAlignment="Top" Width="480" CountryOrRegion="Italy" IsAutoCollapseEnabled="True"/>
+-->
         </Grid>
     </Grid>
 
