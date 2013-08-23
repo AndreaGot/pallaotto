@@ -18,7 +18,7 @@ namespace PallaOtto
         int rispInd;
         Random rnd = new Random();
         string[] intro = new string[5] {"Dopo attenta valutazione, la risposta è:", "PallaOtto ha deliberato:", "La risposta è:", "Il verdetto è il seguente:", "PallaOtto dice:"};
-        string[] risp = new string[15] {"Assolutamente no!", "Neanche per sogno!","Scordatelo","Mi piacerebbe dirti di sì, ma non posso..", "Non credo", "Forse..", "Io tenterei ancora..", "Ritenta, e sarai più fortunato", "Non sono sicuro, riprova!", "Forse sì", "La vedo bene", "Certo!", "Assolutamente sì!", "Senza alcun dubbio!", "Ci puoi contare!"};
+        string[] risp = new string[16] {"Assolutamente no!", "Neanche per sogno!","Scordatelo","Mi piacerebbe dirti di sì, ma non posso..", "Ti piacerebbe, eh?", "Non credo", "Forse..", "Io tenterei ancora..", "Ritenta, e sarai più fortunato", "Non sono sicuro, riprova!", "Forse sì", "La vedo bene", "Certo!", "Assolutamente sì!", "Senza alcun dubbio!", "Ci puoi contare!"};
 
         public Page1()
         {
@@ -46,7 +46,7 @@ namespace PallaOtto
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ShareNewsArticle("Sto usando PallaOtto, e ho appena ricevuto la risposta: "  + risp[rispInd] + "!    #PallaOtto");
+            ShareNewsArticle("Ho chiesto: '" + PhoneApplicationService.Current.State["dom"].ToString() + "' e ho appena ricevuto la risposta: " + risp[rispInd] + "!    #PallaOtto");
         }
 
     }

@@ -24,6 +24,13 @@ namespace PallaOtto
 
         }
 
+        private void Cancella(object sender, RoutedEventArgs e)
+        {
+            txtDomanda.Text = "";
+        }
+
+
+
 
     }
 }
