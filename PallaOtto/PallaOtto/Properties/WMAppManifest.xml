@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="it-IT" />
-  <App xmlns="" ProductID="{0fef4664-bd4d-418d-8f73-08f2aa288857}" Title="PallaOtto" RuntimeType="Silverlight" Version="1.0.1.0" Genre="apps.normal" Author="Andrea Gottardi" Description="Hai una domanda che necessita di risposta? PallaOtto fa al caso tuo!" Publisher="PallaOtto" PublisherID="{cbf60f68-ce01-4181-ad62-95633ce76909}">
+  <Languages xmlns="">
+    <Language code="it" />
+    <Language code="it-IT" />
+  </Languages>
+  <App xmlns="" ProductID="{0fef4664-bd4d-418d-8f73-08f2aa288857}" Title="PallaOtto" RuntimeType="Silverlight" Version="1.0.2.0" Genre="apps.normal" Author="Andrea Gottardi" Description="Hai una domanda che necessita di risposta? PallaOtto fa al caso tuo!&#xD;&#xA;&#xD;&#xA;Con un click sarà possibile ottenere una risposta alle più svariate domande!&#xD;&#xA;&#xD;&#xA;Lei vorrà uscire? Lui accetterà la proposta? Sarà una buona idea fare qualcosa stasera?&#xD;&#xA;&#xD;&#xA;Scoprilo!" Publisher="PallaOtto" PublisherID="{cbf60f68-ce01-4181-ad62-95633ce76909}">
     <IconPath IsRelative="true" IsResource="false">Assets\8Ball.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -38,6 +42,8 @@
     </Tokens>
     <ScreenResolutions>
       <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
     </ScreenResolutions>
   </App>
 </Deployment>

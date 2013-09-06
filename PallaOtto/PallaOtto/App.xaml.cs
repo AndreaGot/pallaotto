@@ -39,7 +39,7 @@ namespace PallaOtto
             if (Debugger.IsAttached)
             {
                 // Visualizza i contatori della frequenza fotogrammi corrente.
-                Application.Current.Host.Settings.EnableFrameRateCounter = true;
+               // Application.Current.Host.Settings.EnableFrameRateCounter = true;
 
                 // Visualizza le aree dell'applicazione che vengono ridisegnate in ogni fotogramma.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;

@@ -18,13 +18,13 @@ namespace PallaOtto
         int rispInd;
         Random rnd = new Random();
         string[] intro = new string[5] {"Dopo attenta valutazione, la risposta è:", "PallaOtto ha deliberato:", "La risposta è:", "Il verdetto è il seguente:", "PallaOtto dice:"};
-        string[] risp = new string[16] {"Assolutamente no!", "Neanche per sogno!","Scordatelo","Mi piacerebbe dirti di sì, ma non posso..", "Ti piacerebbe, eh?", "Non credo", "Forse..", "Io tenterei ancora..", "Ritenta, e sarai più fortunato", "Non sono sicuro, riprova!", "Forse sì", "La vedo bene", "Certo!", "Assolutamente sì!", "Senza alcun dubbio!", "Ci puoi contare!"};
+        string[] risp = new string[19] {"Assolutamente no!", "Neanche per sogno!","Scordatelo","Mi piacerebbe dirti di sì, ma non posso..", "Ti piacerebbe, eh?","Purtroppo no", "Non credo", "Forse..", "Io tenterei ancora..", "Ritenta, e sarai più fortunato", "Non sono sicuro, riprova!", "Mentre ci penso su, riprova!", "Forse sì", "La vedo bene", "Certo!", "Assolutamente sì!", "Senza alcun dubbio!", "Ci puoi contare!", "Sicuramente!"};
 
         public Page1()
         {
             InitializeComponent();
             introInd = rnd.Next(0,4);
-            rispInd = rnd.Next(0,14);
+            rispInd = rnd.Next(0,18);
             txtIntro.Text = intro[introInd];
             txtRisp.Text = risp[rispInd];
             txtDom.Text = PhoneApplicationService.Current.State["dom"].ToString();
