@@ -43,7 +43,6 @@
                 </Button.RenderTransform>
             </Button>
 
-            <UI:AdControl ApplicationId="ca8d7b13-851c-4b30-b92f-d6da2dd6de27" AdUnitId="10143753" HorizontalAlignment="Left" Height="80" Margin="-10,488,-14,0" VerticalAlignment="Top" Width="480" CountryOrRegion="Italy" IsAutoCollapseEnabled="True"/>
 
         </Grid>
     </Grid>
