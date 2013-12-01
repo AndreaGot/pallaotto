@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="PallaOttoW8.Gioco"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PallaOttoW8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="backButton" Margin="36,74,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+    		Style="{StaticResource NavigationBackButtonNormalStyle}"
+    		VerticalAlignment="Top"
+    		AutomationProperties.Name="Back"
+    		AutomationProperties.AutomationId="BackButton"
+    		AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
+        <TextBlock x:Name="pageTitle" Text="Chiedi a PallaOtto!" Style="{StaticResource HeaderTextBlockStyle}" 
+    		IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="117,0,33,623" FontSize="150" />
+        <TextBox x:Name="txtDom" HorizontalAlignment="Left" Margin="105,409,0,311" TextWrapping="Wrap" Text="Domanda" Width="450" FontSize="25" GotFocus="txtDom_GotFocus"/>
+        <Button Content="Scopri la risposta!" HorizontalAlignment="Left" Height="84" Margin="102,538,0,0" VerticalAlignment="Top" Width="456" FontSize="25" Background="#FF007ACC" Click="Button_Click"/>
+        <TextBlock x:Name="pageTitle_Copy" Text="Inserisci la domanda" Style="{StaticResource HeaderTextBlockStyle}" 
+        	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="105,0,811,454" FontSize="50" TextAlignment="Center" />
+        <TextBlock x:Name="lblDom" Text="Inserisci la domanda" Style="{StaticResource HeaderTextBlockStyle}" 
+        	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="847,0,69,383" FontSize="40" TextAlignment="Center" RenderTransformOrigin="0.478,-0.45" Height="111" Visibility="Collapsed" />
+        <TextBlock x:Name="lblRisp" Text="Inserisci la domanda" Style="{StaticResource HeaderTextBlockStyle}" 
+        	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="847,0,69,319" FontSize="30" TextAlignment="Center" Visibility="Collapsed" />
+        <TextBlock x:Name="txtRisp" Text="Inserisci la domanda" Style="{StaticResource HeaderTextBlockStyle}" 
+        	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="847,0,69,178" FontSize="50" TextAlignment="Center" Foreground="#FF007ACC" Visibility="Collapsed" />
+
+    </Grid>
+</Page>

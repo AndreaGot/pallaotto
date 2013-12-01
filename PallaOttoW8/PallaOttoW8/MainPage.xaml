@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="PallaOttoW8.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PallaOttoW8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="pageTitle" Text="PallaOtto" Style="{StaticResource HeaderTextBlockStyle}" 
+    		IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="57,0,93,614" FontSize="150" />
+        <TextBlock x:Name="pageTitle_Copy" Style="{StaticResource HeaderTextBlockStyle}" 
+    		IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="57,0,93,569" FontSize="40" Text="La risposta a tutte le tue domande!" />
+        <Button x:Name="btnInfo" Content="Istruzioni" HorizontalAlignment="Left" Height="273" Margin="148,316,0,0" VerticalAlignment="Top" Width="273" FontSize="40" FontWeight="Normal" Click="btnInfo_Click"/>
+        <Button x:Name="btnGioca" Content="Poni una domanda" HorizontalAlignment="Left" Height="273" Margin="487,316,0,0" VerticalAlignment="Top" Width="409" FontSize="40" FontWeight="Normal" Background="#FF007ACC" Click="btnGioca_Click"/>
+        <Button x:Name="btnChi" Content="Informazioni" HorizontalAlignment="Left" Height="273" Margin="948,316,0,0" VerticalAlignment="Top" Width="273" FontSize="40" FontWeight="Normal" Click="btnChi_Click"/>
+
+    </Grid>
+</Page>

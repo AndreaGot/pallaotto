@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="PallaOttoW8.Istruzioni"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PallaOttoW8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="backButton" Margin="36,74,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+    		Style="{StaticResource NavigationBackButtonNormalStyle}"
+    		VerticalAlignment="Top"
+    		AutomationProperties.Name="Back"
+    		AutomationProperties.AutomationId="BackButton"
+    		AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
+        <TextBlock x:Name="pageTitle" Text="Istruzioni" Style="{StaticResource HeaderTextBlockStyle}" 
+    		IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="117,0,33,627" FontSize="150" />
+        <TextBlock HorizontalAlignment="Left" Height="566" Margin="10,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1053" FontSize="20" FontFamily="Segoe UI Light">
+        	<Run FontFamily="Segoe UI" Text="Benvenuto in PallaOtto!"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontFamily="Segoe UI" Text="Questa applicazione fornisce risposte a semplici domande: Non sai se ciò che stai per fare è la cosa giusta? Non sai se la persona a cui hai chiesto di uscire accetterà la proposta? Chiedi a PallaOtto e potrai scoprirlo!"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontFamily="Segoe UI" Text="Il funzionamento è molto semplice: Inserisci la domanda che vuoi porre, e subito avrai la risposta! "/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontFamily="Segoe UI" Text="Buon divertimento!"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontFamily="Segoe UI" Text="ATTENZIONE: l'applicazione fornisce responsi che possono essere non attinenti alla realtà. Lo sviluppatore esclude ogni responsabilità derivante da un uso improprio, o comunque non consono a questo tipo di applicazioni"/>
+        </TextBlock>
+
+    </Grid>
+</Page>

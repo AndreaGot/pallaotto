@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="PallaOttoW8.Informazioni"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PallaOttoW8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="backButton" Margin="36,74,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+    		Style="{StaticResource NavigationBackButtonNormalStyle}"
+    		VerticalAlignment="Top"
+    		AutomationProperties.Name="Back"
+    		AutomationProperties.AutomationId="BackButton"
+    		AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
+        <TextBlock x:Name="pageTitle" Text="Informazioni" Style="{StaticResource HeaderTextBlockStyle}" 
+    		IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="117,0,33,628" FontSize="150" />
+        <Image HorizontalAlignment="Left" Height="245" Margin="36,199,0,0" VerticalAlignment="Top" Width="329" Source="MiaImg.jpg"/>
+        <Image x:Name="imgFB" HorizontalAlignment="Left" Height="64" Margin="36,489,0,0" VerticalAlignment="Top" Width="64" Source="Facebook.png" />
+        <Image x:Name="imgTW" HorizontalAlignment="Left" Height="64" Margin="36,574,0,0" VerticalAlignment="Top" Width="64" Source="Twitter.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="151" Margin="429,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" FontSize="30">
+    		<Run Text="Nome: Andrea Gottardi"/>
+    		<LineBreak/>
+    		<Run Text="Età: 21"/>
+    		<LineBreak/>
+    		<Run Text="Interessi: ICT, Web, Apps"/>
+    		<LineBreak/>
+    		<Run Text="Sport: Pallacanestro"/>
+    		<LineBreak/>
+    		<Run Text=""/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="129,489,0,0" TextWrapping="Wrap" Text="andrea.gottardi" VerticalAlignment="Top" Width="325" FontSize="35"/>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="129,574,0,0" TextWrapping="Wrap" Text="@AndreaGot" VerticalAlignment="Top" Width="325" FontSize="35"/>
+        <Image x:Name="imgMail" HorizontalAlignment="Left" Height="64" Margin="36,658,0,0" VerticalAlignment="Top" Width="64" Source="Busta.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="129,658,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343" FontSize="30">
+    		<Run Text="andreagot16@gmail.com"/>
+        </TextBlock>
+
+    </Grid>
+</Page>
